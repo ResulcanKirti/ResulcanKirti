@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Resulcan Kirti</h1>
 <h3 align="center"> A Computer Engineer from Turkey in Ankara </h3>
 
-- 🔭 I’m currently working on **Full-stack developer specializing in mobile and web development. **
+- 🔭 I’m currently working on Full-stack developer specializing in mobile and web development.
 
 - 🌱 I’m currently learning **Flask,Django,Flutter,SQLite**
 
