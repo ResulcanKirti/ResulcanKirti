@@ -59,7 +59,3 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/resulcankirti/resulcankirti/main/github-metrics.svg" alt="Metrics" />
 </p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=resulcankirti&theme=radical&hide_border=true" alt="GitHub Streak" />
-</p>
