@@ -23,8 +23,6 @@
   <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> 
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=resulcankirti&show_icons=true&locale=en&layout=compact" alt="resulcankirti" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=resulcankirti&show_icons=true&locale=en" alt="resulcankirti" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=resulcankirti&" alt="resulcankirti" /></p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=resulcankirti&" alt="resulcankirti" />
+</p>
