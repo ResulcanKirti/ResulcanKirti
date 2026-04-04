@@ -1,6 +1,5 @@
 name: Metrics
 on:
-  # Her gece saat 00:00'da kendi kendine çalışır
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
   push: {branches: ["main", "master"]}
@@ -15,12 +14,12 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: resulcankirti
           template: classic
-          base: header, activity, community, repositories, metadata
+          
+          # İŞTE BURAYI TIRAŞLADIK: community ve metadata uçtu, sadece öz bilgiler kaldı!
+          base: header, activity, repositories
           config_timezone: Europe/Istanbul
 
-          # YENİ EKLENEN FİYAKALI ÖZELLİKLER 🚀
-          
-          # 1. Diller (En çok kullandığın teknolojiler - Dart, Python vs.)
+          # 1. Diller (En çok kullandığın teknolojiler)
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
@@ -33,7 +32,7 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
 
-          # 2. Kodlama Alışkanlıkları (Gece kuşu musun gündüzcü mü?)
+          # 2. Kodlama Alışkanlıkları
           plugin_habits: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 14
@@ -42,6 +41,6 @@ jobs:
           plugin_habits_languages_limit: 8
           plugin_habits_languages_threshold: 0%
 
-          # 3. 3D İzometrik Takvim (Şekilli commit haritası)
+          # 3. 3D İzometrik Takvim
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
