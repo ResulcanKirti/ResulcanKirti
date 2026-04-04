@@ -10,7 +10,6 @@
 
 ### 🚀 About Me
 - 🔭 **Working on:** Full-stack mobile and web projects.
-- 🌱 **Learning:** Flask, Django, Flutter & SQLite.
 - 📍 **Location:** Ankara, Turkey.
 - ✉️ **Contact:** <a href="mailto:kirtiresulcan@gmail.com">kirtiresulcan@gmail.com</a>
 
@@ -55,7 +54,15 @@
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub Stats & Activity
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=resulcankirti&theme=radical&no-frame=true&row=1&column=6&margin-w=15" alt="Trophies" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=resulcankirti&theme=radical&hide_border=true&area=true" alt="Activity Graph" />
+</p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=resulcankirti&theme=radical&hide_border=true" alt="GitHub Streak" />
